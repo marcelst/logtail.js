@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+  <title>Javascript tail -f</title>
+  <script src="jquery-1.9.1.js"></script>
+  <script src="waypoints.js"></script>
+
+<script type="text/javascript" src="logtail.js"> 
+</script>
+    </head>
+
+
+  <body onLoad='tailf(); setInterval("tailf()", 5000)'>
+    <div>
+      <pre id="thePlace"></pre>
+      <div id="page_bottom" style='position:fixed; bottom:35px; left:24px; width:100px; height:20px; background-color: #fed'>Follow</div>
+    </div>
+  </body>
+</html>
