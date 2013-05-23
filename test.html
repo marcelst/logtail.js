@@ -4,14 +4,12 @@
   <head>
   <title>Javascript tail -f</title>
   <script src="jquery-1.9.1.js"></script>
-  <script src="waypoints.js"></script>
 
-<script type="text/javascript" src="logtail.js"> 
-</script>
+  <script src="logtail.js"></script>
     </head>
 
 
-  <body onLoad='tailf(); setInterval("tailf()", 5000)'>
+  <body onLoad='tailf(); setInterval("tailf()", 1000)'>
     <div>
       <pre id="thePlace"></pre>
       <div id="page_bottom" style='position:fixed; bottom:35px; left:24px; width:100px; height:20px; background-color: #fed'>Follow</div>
